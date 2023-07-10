@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Growgh</string>
+    <string name="aboutH">About Us</string>
+    <string name="missionH">Our Mission</string>
+    <string name="visionH">Our Vision</string>
+    <string name="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</string>
+    <string name="mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</string>
+    <string name="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</string>
+</resources>

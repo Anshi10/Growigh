@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Ayush"
+        android:textSize="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sun"/>
+
+    <Button
+        android:id="@+id/feeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feeds"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/gradient"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/feeds"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/gradient"/>
+
+
+</RelativeLayout>
